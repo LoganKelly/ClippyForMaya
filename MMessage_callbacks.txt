@@ -1,0 +1,199 @@
+MCommandMessage # Class used to register callbacks for command related messages
+MCommandMessage.kHistory # Command history
+MCommandMessage.kDisplay # String to display unmodified
+MCommandMessage.kInfo # General Information
+MCommandMessage.kWarning # Warning Message
+MCommandMessage.kError # Error Message
+MCommandMessage.kResult # Result from a command execution in the command window
+MCommandMessage.kStackTrace # Stack trace
+
+MConditionMessage # Class used to register callbacks for condition related messages.
+
+MContainerMessage # Class used to register callbacks for container related messages
+
+MDagMessage # Class used to register callbacks for Dag related messages
+MDagMessage.kAll
+MDagMessage.kChildAdded
+MDagMessage.kChildRemoved
+MDagMessage.kChildReordered
+MDagMessage.kDefaultAction
+MDagMessage.kDoAction
+MDagMessage.kDoNotDoAction
+MDagMessage.kInstanceAdded
+MDagMessage.kInstanceRemoved
+MDagMessage.kInvalidMsg
+MDagMessage.kLast
+MDagMessage.kParentAdded
+MDagMessage.kParentRemoved
+MDagMessage.kRotateOrder
+MDagMessage.kRotateOrient
+MDagMessage.kRotateOrientX
+MDagMessage.kRotateOrientY
+MDagMessage.kRotateOrientZ
+MDagMessage.kRotatePivot
+MDagMessage.kRotatePivotTrans
+MDagMessage.kRotatePivotX
+MDagMessage.kRotatePivotY
+MDagMessage.kRotatePivotZ
+MDagMessage.kRotateTransX
+MDagMessage.kRotateTransY
+MDagMessage.kRotateTransZ
+MDagMessage.kRotateX
+MDagMessage.kRotateY
+MDagMessage.kRotateZ
+MDagMessage.kRotation
+MDagMessage.kScale
+MDagMessage.kScalePivot
+MDagMessage.kScalePivotTrans
+MDagMessage.kScalePivotX
+MDagMessage.kScalePivotY
+MDagMessage.kScalePivotZ
+MDagMessage.kScaleTransX
+MDagMessage.kScaleTransY
+MDagMessage.kScaleTransZ
+MDagMessage.kScaleX
+MDagMessage.kScaleY
+MDagMessage.kScaleZ
+MDagMessage.kShear
+MDagMessage.kShearXY
+MDagMessage.kShearXZ
+MDagMessage.kShearYZ
+MDagMessage.kTranslateX
+MDagMessage.kTranslateY
+MDagMessage.kTranslateZ
+MDagMessage.kTranslation
+
+MDGMessage # Class used to register callbacks for Dependency Graph related messages.
+
+MLockMessage # Class used to register callbacks for any situation involving a locking condition on DAG level changes.
+MLockMessage.kAddAttr
+MLockMessage.kChildReorder
+MLockMessage.kCreateChildInstance
+MLockMessage.kCreateNodeInstance
+MLockMessage.kCreateParentInstance
+MLockMessage.kDefaultAction
+MLockMessage.kDelete
+MLockMessage.kDoAction
+MLockMessage.kDoNotDoAction
+MLockMessage.kGroup
+MLockMessage.kInvalid
+MLockMessage.kInvalidDAG
+MLockMessage.kInvalidPlug
+MLockMessage.kLast
+MLockMessage.kLastDAG
+MLockMessage.kLastPlug
+MLockMessage.kLockAttr
+MLockMessage.kLockNode
+MLockMessage.kPlugAttrValChange
+MLockMessage.kPlugConnect
+MLockMessage.kPlugDisconnect
+MLockMessage.kPlugLockAttr
+MLockMessage.kPlugRemoveAttr
+MLockMessage.kPlugRenameAttr
+MLockMessage.kPlugUnlockAttr
+MLockMessage.kRemoveAttr
+MLockMessage.kRename
+MLockMessage.kRenameAttr
+MLockMessage.kReparent
+MLockMessage.kUnGroup
+MLockMessage.kUnlockAttr
+MLockMessage.kUnlockNode
+
+MModelMessage # Class used to register callbacks for model related messages.
+MModelMessage.kActiveListModified # Active selection modified
+
+MNodeMessage # Class used to register callbacks for dependency node messages of specific dependency nodes.
+MNodeMessage.kAttributeAdded #an attribute has been added to this node
+MNodeMessage.kAttributeArrayAdded #an array attribute has been added to this node
+MNodeMessage.kAttributeArrayRemoved #an array attribute has been removed from this node
+MNodeMessage.kAttributeEval #an attribute of this node has been evaluated
+MNodeMessage.kAttributeKeyable #an attribute of this node has been marked keyable
+MNodeMessage.kAttributeLocked #an attribute of this node has been locked
+MNodeMessage.kAttributeRemoved #an attribute has been removed from this node
+MNodeMessage.kAttributeRenamed #an attribute of this node has been renamed
+MNodeMessage.kAttributeSet #an attribute value of this node has been set
+MNodeMessage.kAttributeUnkeyable #an attribute of this node has been marked unkeyable
+MNodeMessage.kAttributeUnlocked #an attribute of this node has been unlocked
+MNodeMessage.kConnectionBroken #a connection has been broken for an attribute of this node
+MNodeMessage.kConnectionMade #a connection has been made to an attribute of this node
+MNodeMessage.kDefaultAction
+MNodeMessage.kDoAction
+MNodeMessage.kDoNotDoAction
+MNodeMessage.kIncomingDirection #the connection was coming into the node
+MNodeMessage.kKeyChangeInvalid
+MNodeMessage.kKeyChangeLast
+MNodeMessage.kLast
+MNodeMessage.kMakeKeyable
+MNodeMessage.kMakeUnkeyable
+MNodeMessage.kOtherPlugSet
+
+MObjectSetMessage # Class used to register callbacks for set modified related messages.
+
+MPolyMessage # Class used to register callbacks that should be called whenever a poly component id is modified.
+
+MSceneMessage # Class used to register callbacks for scene related messages.
+MSceneMessage.kAfterCreateReference
+MSceneMessage.kAfterCreateReferenceAndRecordEdits
+MSceneMessage.kAfterExport
+MSceneMessage.kAfterExportReference
+MSceneMessage.kAfterFileRead
+MSceneMessage.kAfterImport
+MSceneMessage.kAfterImportReference
+MSceneMessage.kAfterLoadReference
+MSceneMessage.kAfterLoadReferenceAndRecordEdits
+MSceneMessage.kAfterNew
+MSceneMessage.kAfterOpen
+MSceneMessage.kAfterPluginLoad
+MSceneMessage.kAfterPluginUnload
+MSceneMessage.kAfterReference
+MSceneMessage.kAfterRemoveReference
+MSceneMessage.kAfterSave
+MSceneMessage.kAfterSceneReadAndRecordEdits
+MSceneMessage.kAfterSoftwareFrameRender
+MSceneMessage.kAfterSoftwareRender
+MSceneMessage.kAfterUnloadReference
+MSceneMessage.kBeforeCreateReference
+MSceneMessage.kBeforeCreateReferenceAndRecordEdits
+MSceneMessage.kBeforeCreateReferenceCheck
+MSceneMessage.kBeforeExport
+MSceneMessage.kBeforeExportCheck
+MSceneMessage.kBeforeExportReference
+MSceneMessage.kBeforeFileRead
+MSceneMessage.kBeforeImport
+MSceneMessage.kBeforeImportCheck
+MSceneMessage.kBeforeImportReference
+MSceneMessage.kBeforeLoadReference
+MSceneMessage.kBeforeLoadReferenceAndRecordEdits
+MSceneMessage.kBeforeLoadReferenceCheck
+MSceneMessage.kBeforeNew
+MSceneMessage.kBeforeNewCheck
+MSceneMessage.kBeforeOpen
+MSceneMessage.kBeforeOpenCheck
+MSceneMessage.kBeforePluginLoad
+MSceneMessage.kBeforePluginUnload
+MSceneMessage.kBeforeReference
+MSceneMessage.kBeforeReferenceCheck
+MSceneMessage.kBeforeRemoveReference
+MSceneMessage.kBeforeSave
+MSceneMessage.kBeforeSaveCheck
+MSceneMessage.kBeforeSoftwareFrameRender
+MSceneMessage.kBeforeSoftwareRender
+MSceneMessage.kBeforeUnloadReference
+MSceneMessage.kDefaultAction
+MSceneMessage.kDoAction
+MSceneMessage.kDoNotDoAction
+MSceneMessage.kExportStarted
+MSceneMessage.kLast
+MSceneMessage.kMayaExiting
+MSceneMessage.kMayaInitialized
+MSceneMessage.kSceneUpdate
+MSceneMessage.kSoftwareRenderInterrupted
+
+MTimerMessage # Class used to register callbacks for timer related messages.
+
+MUserEventMessage # Class used to register callbacks for user event messages.
+
+MAnimMessage # Class used to register callbacks that are called whenever an
+AnimCurve is edited.
+
+MUiMessage # Class used to register callbacks for 3d view related messages.

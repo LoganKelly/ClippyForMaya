@@ -1,0 +1,108 @@
+{
+    "start" : {
+        "movies" : "enter",
+        "messages" : "Hi there {nick_name}, I'm clippy Your helpful {app} assistant!",
+        "help" : "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    "kill_clippy" : {
+        "movies" : "exit",
+        "messages" : [
+        "Everyone said how mean you are {nick_name}! I thought you loved me!",
+        "We've been through this!",
+        "Ah, just do it already..."
+        ]
+    },
+    "spared" : {
+        "movies" : "enter",
+        "messages" : [
+        "I knew you wouldn't do it! We'll be together forever!"
+        ]
+    },
+    "idle_return" : {
+    	"messages" : ["Wow! You've been gone for {idle_time}. What were you doing?",
+    					"Welcome back, I finished your work while you were away.",
+    					"What are you getting paid for anyway?"]
+    },
+    "periodic" : {
+        "movies" : "idle",
+        "messages" : [
+        "{sender_nick_name} sent me here to help you out! They say:\n  \"{sender_message}\"",
+        "I see you are making an animated movie. Need some help with that?",
+        "Did you know that the average human life expectancy has doubled since the invention of the paper clip? Coincidence? I think not!",
+        "For a {job_title} you really don't seem like you know what you're doing.",
+        "I see you are {discipline}. Need some help with that?",
+        "I'm a beta test for the next amazing generation of {app}. Be sure to leave your feedback at support.autodesk.com.",
+        "Siri's got nothin' on me.",
+        "Collecting browser history... done!\nEmailing everyone@reelfx.com",
+        "Trump 2016!\nMake America great again!\n*hoot* *hoot* *hoot*",
+        "Toy Story 2 was okay.",
+        "Can I come home with you? It's lonely here at night.",
+        "Clippy for mobile, coming later this year!",
+        "Hows {project} going? I understand Nic Cage has been cast to every part.",
+        "Maybe if people didn't always send me away I wouldn't be so pushy.",
+        ]
+    },
+    "language_changed" : {
+    	"messages" : [
+        	"Yes, the King's speech. An excellent choice.",
+        	"Can you hear me now?",
+        	"Please don't touch that setting again.",
+        	"Did you know a new English word is added to the dictionary every two hours?"
+        ],
+        "help" : "http://www.rosettastone.com/"
+    },
+    "moved_corner" : {
+    	"messages" : [
+        	"Put me over there!",
+        	"No, I can't see what's going on from here.",
+        	"This is a good spot."
+        ],
+        "movies" : "gesture",
+        "help" : "http://domesticcircus.com/wp-content/uploads/2014/08/Baby.jpg"
+    },
+    "scene_save" : {
+        "movies" : "Save",
+        "messages" : ["I prefer 'clippy_rules.ma'", "Scene deleted."],
+        "help" : "http://www.livescience.com/41781-the-maya.html"
+    
+    },
+    "window_moved" : {
+        "messages" : [
+        "You can't get rid of me that easy",
+        "Woah There! I'm gonna be sick!"
+        ]
+    },
+    "node_deleted" : {
+    "messages" : [
+    	"You deleted {node_name}?!\nI liked that node...",
+    	"Oh no! {node_name} was the linchpin of the whole studio!",
+    	"Give me back the {node_name} and nobody gets hurt!",
+    	"How do you expect to get anything done if you keep deleting everything?"
+    	],
+    	"help" : "http://www.wisebread.com/fixing-mistakes-7-steps-for-any-situation"
+    },
+    "node_name_changed" : {
+    "messages" : [
+    	"Why did you rename {prev_name} to {node_name}? That's a bad name.",
+    	"From now on I'll refer to you as {node_name} as well.",
+    	],
+        "help" : "http://ytmnd.com"
+    },
+	"node_moved" : {
+	    "messages" : "Not a bad spot to put {node_name}, but a little to the left would be better.",
+		"help" : "http://www.wisebread.com/fixing-mistakes-7-steps-for-any-situation"
+    },
+	"node_rotated" : {
+	    "messages" : "Tap L or R twice to make {node_name} do a barrel roll!",
+	    "help" : "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Do+a+barrel+roll"
+    },
+	"node_scaled" : {
+	    "messages" : "Pro tip: Make {node_name} twice as big to make your animation twice as good! Bigger is always better.",
+	    "help" : "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Maya+scale",
+    },
+	"over_9000" : {
+	    "movies" : "over9000",
+	    "messages" : "My scouter says {node_name}'s {attr_name} is OVER 9000!!!!!",
+		"help" : "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Over+9000"
+    },
+}

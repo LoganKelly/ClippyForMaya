@@ -1,0 +1,24 @@
+{
+  "dvader": {
+    "abbrev_name": "Darth V.", 
+    "active": true, 
+    "building_name": "Death Star", 
+    "company_name": "G. Empire", 
+    "department": "Administration", 
+    "department_token": "admin", 
+    "desk_number": "11111112", 
+    "division_name": "Accquisitions and Mergers", 
+    "email": "dvader@empire.com", 
+    "first_name": "Darth", 
+    "full_name": "Darth (Ani) Vader", 
+    "id": 1,  
+    "job_title": "Iron Fister", 
+    "last_name": "Vader", 
+    "nick_name": "Ani", 
+    "office_location_name": "Death Star, Level 56, section Gamma-D, row 89, block AA17, office 4",
+    "phone_number": "867-5309", 
+    "real_name": "Anikan Skywalker", 
+    "username": "dvader"
+  }, 
+ 
+}
